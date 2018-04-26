@@ -1,0 +1,50 @@
+[
+  {
+    "id": "446034a9-3ffd-48e5-a14d-801db91e2061",
+    "data": [
+      {
+        "text": "i didn\u0027t like the pizza sorry i cannot recommend you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748625
+  },
+  {
+    "id": "f988467e-c8b7-4ab8-b890-c65dc24ca374",
+    "data": [
+      {
+        "text": "i would not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748625
+  },
+  {
+    "id": "4adfb64f-dab8-4b1b-be30-15443082fa19",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748625
+  },
+  {
+    "id": "4482ec2b-1666-467d-95d8-c6a2e088fa38",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748625
+  }
+]

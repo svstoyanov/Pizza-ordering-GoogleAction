@@ -1,0 +1,47 @@
+{
+  "id": "e2631ed9-ecdf-405c-b528-a7e40b8a8e2e",
+  "parentId": "a6bce09d-9bc6-4228-8cfb-c03f407da74b",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "address.taken - no - no - custom",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-no.pizzaorder-no-no.pizzaorder-no-no-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "91a8eb71-cb0c-47a6-8c65-cb3736d901b3",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where should i deliver the pizza?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your order is on it\u0027s way. Buon apeti!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524746988,
+  "fallbackIntent": false,
+  "events": []
+}

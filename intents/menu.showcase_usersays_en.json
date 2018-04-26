@@ -1,0 +1,130 @@
+[
+  {
+    "id": "8dfb87be-5400-4a6c-b919-cadf145a2d04",
+    "data": [
+      {
+        "text": "show me the ",
+        "userDefined": false
+      },
+      {
+        "text": "menu",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524749243
+  },
+  {
+    "id": "eec5169c-ad17-450a-96c5-b8f12a6b45fb",
+    "data": [
+      {
+        "text": "can you show me the ",
+        "userDefined": false
+      },
+      {
+        "text": "menu",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524749243
+  },
+  {
+    "id": "0ed265d6-ae60-4f60-9bcc-51d04bdbdc6d",
+    "data": [
+      {
+        "text": "can i see the ",
+        "userDefined": false
+      },
+      {
+        "text": "menu",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749243
+  },
+  {
+    "id": "dc020f33-b1d9-4bda-bfa1-e0593072cf0d",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza do you have",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749243
+  },
+  {
+    "id": "12d14af4-098b-49e7-94b1-ba3b15332ab2",
+    "data": [
+      {
+        "text": "What can i ",
+        "userDefined": false
+      },
+      {
+        "text": "order",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749243
+  },
+  {
+    "id": "7134b4cf-3f84-4549-bc17-350bb4caec10",
+    "data": [
+      {
+        "text": "i want to see the ",
+        "userDefined": false
+      },
+      {
+        "text": "menu",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749243
+  }
+]

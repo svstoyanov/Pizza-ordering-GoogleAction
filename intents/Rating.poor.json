@@ -1,0 +1,43 @@
+{
+  "id": "14ae1c17-ab13-47a5-85da-40284fe90f2d",
+  "name": "Rating.poor",
+  "auto": true,
+  "contexts": [
+    "rate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "question.rate",
+      "affectedContexts": [
+        {
+          "name": "rate",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e21535f1-2897-4611-b832-fd2db003a7f7",
+          "name": "rate",
+          "value": "poor"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ahh. This time the pizza is on us so you can degustate it again. What pizza you would like to order?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524748145,
+  "fallbackIntent": false,
+  "events": []
+}

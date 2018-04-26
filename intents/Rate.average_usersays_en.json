@@ -1,0 +1,62 @@
+[
+  {
+    "id": "6f8b8b4b-6f86-4744-a995-9d9b68e7930d",
+    "data": [
+      {
+        "text": "somewhere in between good and bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748040
+  },
+  {
+    "id": "07b7407d-296c-4004-b987-552de72625aa",
+    "data": [
+      {
+        "text": "it wasn\u0027t good but it wasn\u0027t bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748040
+  },
+  {
+    "id": "dc9550fe-4541-46a0-8603-f7fe9a0aaf79",
+    "data": [
+      {
+        "text": "in between",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748040
+  },
+  {
+    "id": "294a35f8-dccf-45b6-9666-12dcedc9e183",
+    "data": [
+      {
+        "text": "average",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748040
+  },
+  {
+    "id": "047f9006-a47f-45f8-a915-bad46fa1b8f3",
+    "data": [
+      {
+        "text": "The pizza was average",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748040
+  }
+]

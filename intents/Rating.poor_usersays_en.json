@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d5470f84-c6b0-46b0-8f76-8f746a2276ed",
+    "data": [
+      {
+        "text": "it was awful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524747793
+  },
+  {
+    "id": "de44fa14-c7cb-40f8-bfa0-fcf240cc262f",
+    "data": [
+      {
+        "text": "i didn\u0027t like it at all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524747793
+  },
+  {
+    "id": "8e483284-6262-472b-9540-41932b233c44",
+    "data": [
+      {
+        "text": "it was disgusting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524747793
+  }
+]

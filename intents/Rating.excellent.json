@@ -1,0 +1,48 @@
+{
+  "id": "6251224d-e326-4c84-8359-8ae0cdc4dad8",
+  "name": "Rating.excellent",
+  "auto": true,
+  "contexts": [
+    "rate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "question.rate",
+      "affectedContexts": [
+        {
+          "name": "rate",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "recommend-question",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0ecc58a0-bdc1-4523-9012-409d4dd2d927",
+          "name": "rate",
+          "value": "excellent"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am glad to hear it. Will tell my team this good news. I have one more question. Would you recommend us to a friend?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524748238,
+  "fallbackIntent": false,
+  "events": []
+}

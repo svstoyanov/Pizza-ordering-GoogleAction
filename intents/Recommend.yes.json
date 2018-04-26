@@ -1,0 +1,38 @@
+{
+  "id": "2fab2633-e2fc-48de-bc21-bbafa5dab65a",
+  "name": "Recommend.yes",
+  "auto": true,
+  "contexts": [
+    "recommend-question"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "203d01b8-0272-4705-a7c1-605f385eacc2",
+          "required": false,
+          "name": "rate",
+          "value": "yes",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you so much for your feedback! For what pizza you are in the mood for today?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524750132,
+  "fallbackIntent": false,
+  "events": []
+}

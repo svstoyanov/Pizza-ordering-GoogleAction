@@ -1,0 +1,48 @@
+{
+  "id": "0ac2909b-551a-491b-8995-f9d20c68b6dc",
+  "parentId": "b10be153-77a5-4ffe-acb8-e522db958a57",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "address.taken - yes - no - custom",
+  "auto": true,
+  "contexts": [
+    "drinksrejected-yes-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-yes.pizzafillings-yes-no.drinksrejected-yes-no-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "39590ae1-11cb-45cb-ae1a-fea5b8a1dc37",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where should i deliever the pizza?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Done. I have sent the order it should be there in 30 minutes. Buon apetit!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524746330,
+  "fallbackIntent": false,
+  "events": []
+}

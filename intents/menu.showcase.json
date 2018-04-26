@@ -1,0 +1,39 @@
+{
+  "id": "489643be-ec01-464f-b8c5-f002c96a4366",
+  "name": "menu.showcase",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "87588b6a-7dbf-40ba-8f2d-9f4dd0e68c16",
+          "required": false,
+          "dataType": "@menu",
+          "name": "menu",
+          "value": "$menu",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We have margaritas, pepperoni classic, barbecue classic, carbonara, and the Mediterranean. What pizza should be?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524749794,
+  "fallbackIntent": false,
+  "events": []
+}

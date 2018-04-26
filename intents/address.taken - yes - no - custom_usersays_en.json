@@ -1,0 +1,34 @@
+[
+  {
+    "id": "0d01d7d6-d76f-4bba-8288-b08f3cd5f4b8",
+    "data": [
+      {
+        "text": "street ",
+        "userDefined": false
+      },
+      {
+        "text": "Vlahina planina 31",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524746330
+  },
+  {
+    "id": "a4dc4ee6-bc81-4af5-acb8-817df9c35305",
+    "data": [
+      {
+        "text": "Sofia boulevard Tsar Boris III",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 1524746330
+  }
+]

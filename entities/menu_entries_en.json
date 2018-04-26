@@ -1,0 +1,35 @@
+[
+  {
+    "value": "margherita",
+    "synonyms": [
+      "margherita"
+    ]
+  },
+  {
+    "value": "Mediterranean",
+    "synonyms": [
+      "Mediterranean",
+      "pizza with fish"
+    ]
+  },
+  {
+    "value": "carbonara",
+    "synonyms": [
+      "carbonara"
+    ]
+  },
+  {
+    "value": "barbecue classic",
+    "synonyms": [
+      "barbecue classic",
+      "bbq"
+    ]
+  },
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni",
+      "pepperoni classic"
+    ]
+  }
+]

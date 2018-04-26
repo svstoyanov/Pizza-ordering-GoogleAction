@@ -1,0 +1,45 @@
+{
+  "id": "6b9219d3-8ab6-4e48-a4be-7f677020ee27",
+  "name": "order.status",
+  "auto": true,
+  "contexts": [
+    "ordering"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ordering",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "13955f55-fd4a-4ba6-9bc6-1e850ea85300",
+          "name": "order",
+          "value": "#ordering.order"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Your order is on it\u0027s way!",
+            "Your #ordering.order is on it\u0027s way!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524740811,
+  "fallbackIntent": false,
+  "events": []
+}

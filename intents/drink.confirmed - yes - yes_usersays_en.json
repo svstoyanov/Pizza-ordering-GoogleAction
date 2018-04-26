@@ -1,0 +1,171 @@
+[
+  {
+    "id": "51e0028c-52a9-4fa2-b2cd-efaf03537ae9",
+    "data": [
+      {
+        "text": "one",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524750093
+  },
+  {
+    "id": "cd3fa318-5b0e-49b7-b946-4fcad894fd14",
+    "data": [
+      {
+        "text": "yes i would like to have ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beers",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "cokes",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524750093
+  },
+  {
+    "id": "0e1c89d6-ef0d-4eb7-9cbe-d3e0716c25f5",
+    "data": [
+      {
+        "text": "beer",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "coke",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524750093
+  },
+  {
+    "id": "25bdb1e8-3208-4f73-9a1e-cb210c26702b",
+    "data": [
+      {
+        "text": "a ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": false
+      },
+      {
+        "text": " and a ",
+        "userDefined": false
+      },
+      {
+        "text": "coke",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524750093
+  },
+  {
+    "id": "0c9bab33-f9a1-45a1-8d8c-bf2185cc288e",
+    "data": [
+      {
+        "text": "yes i would like a ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "drinks",
+        "meta": "@drinks",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524750093
+  },
+  {
+    "id": "302ae4c8-17fa-443d-a4ab-55185dbde755",
+    "data": [
+      {
+        "text": "yeap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524750093
+  },
+  {
+    "id": "182ebf9b-2de3-4d88-a313-609bc3605e22",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524750093
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "bfb78db7-1bc2-4a8a-8931-b16a1f663e23",
+  "parentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "pizza.fillings - yes",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-followup",
+    "ordering"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-yes",
+      "affectedContexts": [
+        {
+          "name": "pizzafillings-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "84d4ed56-49b4-4b11-a08b-e04a56eb3437",
+          "required": true,
+          "dataType": "@fillings",
+          "name": "fillings",
+          "value": "$fillings",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "We have mozzarella, tomatoes, tuna and pepperoni. What would you like?"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay. Would you like something to drink?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524744154,
+  "fallbackIntent": false,
+  "events": []
+}

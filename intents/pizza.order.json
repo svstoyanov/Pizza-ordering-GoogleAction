@@ -1,0 +1,133 @@
+{
+  "id": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "pizza.order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizzaorder-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "ordering",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a7e6771d-cf95-419c-8ca3-7191d04e7b1c",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size you want your pizza to be?"
+            },
+            {
+              "lang": "en",
+              "value": "The size of your pizza can be: small, medium or large"
+            },
+            {
+              "lang": "en",
+              "value": "Can you tell me the size of your pizza please?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e6fb44b4-07a9-47c7-b792-f4a28f7b5307",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many pizzas you would like to order?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "93a7cb9c-19c9-4620-b644-40048e176b3a",
+          "required": false,
+          "dataType": "@fillings",
+          "name": "fillings",
+          "value": "$fillings",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want any additional fillings for your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "We have the following additional fillings: mozzarella, tomatoes, pepperoni, cheese and tuna"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "03eb8902-65b4-4bd8-96ee-0d2cecf133b1",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        },
+        {
+          "id": "5801d60a-f762-4583-a42d-5c553865bfd8",
+          "required": false,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "isList": false
+        },
+        {
+          "id": "c2fa7288-f305-4d13-971d-b11c8abcdabf",
+          "required": true,
+          "dataType": "@menu",
+          "name": "menu",
+          "value": "$menu",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What pizza would you like?"
+            },
+            {
+              "lang": "en",
+              "value": "We have margaritas, pepperoni classic, barbecue classic, carbonara and Mediterranean. What would it be?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay. Would you like some extra fillings for your pizza?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524749969,
+  "fallbackIntent": false,
+  "events": []
+}

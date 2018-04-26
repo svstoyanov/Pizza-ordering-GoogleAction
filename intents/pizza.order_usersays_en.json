@@ -1,0 +1,364 @@
+[
+  {
+    "id": "04924e76-c2b5-45b4-a05e-625f7c81ff18",
+    "data": [
+      {
+        "text": "margarita",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "04c3c826-6ac4-4e38-9d64-97ea638502e9",
+    "data": [
+      {
+        "text": "i want to order ",
+        "userDefined": false
+      },
+      {
+        "text": "one margarita",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "extra tuna",
+        "alias": "fillings",
+        "meta": "@fillings",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "d49c2ac0-4123-4353-8994-c03aa2c8f789",
+    "data": [
+      {
+        "text": "i want to order one ",
+        "userDefined": false
+      },
+      {
+        "text": "margarita",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524749769
+  },
+  {
+    "id": "9130acc3-b8d3-4121-8d23-ea3e1c19f909",
+    "data": [
+      {
+        "text": "Mediterranean",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524749769
+  },
+  {
+    "id": "56f33d7c-0c46-4150-bd82-502f7a92fb9b",
+    "data": [
+      {
+        "text": "order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524749769
+  },
+  {
+    "id": "b8f81106-2644-4e62-8ddf-f7c1e83548b1",
+    "data": [
+      {
+        "text": "yes order ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "961eea49-5d0c-46a8-b171-b5d00a09d73e",
+    "data": [
+      {
+        "text": "yes i want to order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "a84e9f80-c740-438a-9fc2-41cf7aa262f7",
+    "data": [
+      {
+        "text": "one",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "big",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "margarita",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "f55c7649-a972-4e86-86f8-8bcfaccf0a2d",
+    "data": [
+      {
+        "text": "Can i have ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "margarita",
+        "alias": "menu",
+        "meta": "@menu",
+        "userDefined": true
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "extra mozzarella",
+        "alias": "fillings",
+        "meta": "@fillings",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Paradise mall",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "ee8ff05c-3d01-41c1-9c34-1f6a3eab65c3",
+    "data": [
+      {
+        "text": "i would like one ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " pizza with extra ",
+        "userDefined": false
+      },
+      {
+        "text": "mozzarella",
+        "alias": "fillings",
+        "meta": "@fillings",
+        "userDefined": true
+      },
+      {
+        "text": ", please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "ba6d239b-7a47-4fce-8395-ec21ad572bca",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " pizzas by ",
+        "userDefined": false
+      },
+      {
+        "text": "3pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Paradise mall",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "d2ca02c8-69ee-4eb8-b6df-0073aa734bad",
+    "data": [
+      {
+        "text": "i would have ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " pizzas, please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "6eb2352f-64ff-42e6-bd56-689a73bb001d",
+    "data": [
+      {
+        "text": "Large",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  },
+  {
+    "id": "81cbf832-d389-46ca-b65c-09c711382065",
+    "data": [
+      {
+        "text": "I want to order ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524749769
+  }
+]

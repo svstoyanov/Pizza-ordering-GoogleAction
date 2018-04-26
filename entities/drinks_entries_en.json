@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Cola",
+    "synonyms": [
+      "Cola",
+      "Coca cola",
+      "Coke"
+    ]
+  },
+  {
+    "value": "Fanta",
+    "synonyms": [
+      "Fanta"
+    ]
+  },
+  {
+    "value": "Beer",
+    "synonyms": [
+      "Beer"
+    ]
+  }
+]

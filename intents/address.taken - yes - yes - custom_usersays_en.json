@@ -1,0 +1,52 @@
+[
+  {
+    "id": "735ffbf7-6cdc-4a81-9259-405515316156",
+    "data": [
+      {
+        "text": "Sofia boulevard Tsar Boris III",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524745353
+  },
+  {
+    "id": "66d58725-0981-4db2-b7f8-c6f1e59d87e9",
+    "data": [
+      {
+        "text": "street ",
+        "userDefined": false
+      },
+      {
+        "text": "Vlahina planina 31",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524745353
+  },
+  {
+    "id": "58c86e67-c8b1-4b8d-af7e-dddd409b06cb",
+    "data": [
+      {
+        "text": "my address is ",
+        "userDefined": false
+      },
+      {
+        "text": "123 Paradise mall",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524745353
+  }
+]

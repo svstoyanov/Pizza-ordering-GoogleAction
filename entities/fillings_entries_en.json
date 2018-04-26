@@ -1,0 +1,33 @@
+[
+  {
+    "value": "Cheese",
+    "synonyms": [
+      "Cheese"
+    ]
+  },
+  {
+    "value": "Tuna",
+    "synonyms": [
+      "Tuna"
+    ]
+  },
+  {
+    "value": "Mozzarella",
+    "synonyms": [
+      "Mozzarella"
+    ]
+  },
+  {
+    "value": "Pepperoni",
+    "synonyms": [
+      "Pepperoni"
+    ]
+  },
+  {
+    "value": "Tomato",
+    "synonyms": [
+      "Tomato",
+      "Tomatoes"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2beda665-eda1-43ca-b0f9-5b8ec5a0d9b5",
+    "data": [
+      {
+        "text": "i love it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524748238
+  },
+  {
+    "id": "d4313fd7-3a06-400a-bb02-a773bc795319",
+    "data": [
+      {
+        "text": "Excellent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524747733
+  },
+  {
+    "id": "4e85d6fa-23d8-462c-bab8-aa781ba46b39",
+    "data": [
+      {
+        "text": "amazing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524747733
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "105d83ec-2057-40bd-a698-5a566a0ed155",
+  "name": "Recommend.no",
+  "auto": true,
+  "contexts": [
+    "recommend-question"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "044e12c7-fe48-419a-b75b-9802d4804a46",
+          "required": false,
+          "name": "rate",
+          "value": "no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for your feedback i appreciate it. I will tell my team so they can consider improving the pizzas. We want to make the best pizzas that a human ever tried. Would you like to order a better pizza?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524748645,
+  "fallbackIntent": false,
+  "events": []
+}

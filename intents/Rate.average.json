@@ -1,0 +1,48 @@
+{
+  "id": "024ad77c-8a56-4fa2-bf9c-64c4c9e13f33",
+  "name": "Rate.average",
+  "auto": true,
+  "contexts": [
+    "rate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "question.rate",
+      "affectedContexts": [
+        {
+          "name": "rate",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "recommend-question",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aa6e4c12-ee60-44d9-bad6-6bee65bfa894",
+          "name": "rate",
+          "value": "average"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you recommend us to a friend?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524748040,
+  "fallbackIntent": false,
+  "events": []
+}
