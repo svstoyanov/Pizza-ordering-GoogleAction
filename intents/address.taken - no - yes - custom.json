@@ -1,20 +1,20 @@
 {
-  "id": "6dbb239a-6ce6-47ad-bc90-aeb7a675fe88",
-  "parentId": "77888f41-797f-400f-a85a-568af5d59737",
+  "id": "ebf8b280-38be-42ef-9fe6-6d07282fb90a",
+  "parentId": "fd9b883d-7b67-407f-bc2c-a210f75624af",
   "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
-  "name": "address.taken - yes - yes - custom",
+  "name": "address.taken - no - yes - custom",
   "auto": true,
   "contexts": [
-    "drinkconfirmed-yes-yes-followup"
+    "drinkconfirmed-no-yes-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "pizzaorder.pizzaorder-yes.pizzafillings-yes-yes.drinkconfirmed-yes-yes-custom",
+      "action": "pizzaorder.pizzaorder-no.pizzafilling-no-yes.drinkconfirmed-no-yes-custom",
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "c7502987-8cef-4dc4-a8c9-b2e6779a4c7a",
+          "id": "97f7b277-13fa-4801-8e23-9ea08886bb14",
           "required": true,
           "dataType": "@sys.address",
           "name": "address",
@@ -29,6 +29,13 @@
               "value": "Where i should bring the pizza?"
             }
           ],
+          "isList": false
+        },
+        {
+          "id": "638243b9-480f-492d-aeb7-3b22dc4b2ddf",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
           "isList": false
         }
       ],
@@ -46,7 +53,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1524757547,
+  "lastUpdate": 1524757537,
   "fallbackIntent": false,
   "events": []
 }

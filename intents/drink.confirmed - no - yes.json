@@ -1,0 +1,73 @@
+{
+  "id": "fd9b883d-7b67-407f-bc2c-a210f75624af",
+  "parentId": "ce072e6c-f857-4ec0-9e99-d1a7ee8e8c42",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "drink.confirmed - no - yes",
+  "auto": true,
+  "contexts": [
+    "pizzafilling-no-followup",
+    "pizzaorder-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-no.pizzafilling-no-yes",
+      "affectedContexts": [
+        {
+          "name": "drinkconfirmed-no-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ec82ef56-f270-4538-add2-d5c195f4ad26",
+          "required": true,
+          "dataType": "@drinks",
+          "name": "drinks",
+          "value": "$drinks",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What drinks you would like to have with your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "You can order coke, fanta or beer. What you would like to drink with your pizza?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "6d3e1ac0-5d02-4556-b916-7132976da415",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many would you like?"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Super. Okay to what address i should sent it?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524757366,
+  "fallbackIntent": false,
+  "events": []
+}

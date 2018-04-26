@@ -1,0 +1,39 @@
+{
+  "id": "a6bce09d-9bc6-4228-8cfb-c03f407da74b",
+  "parentId": "ce072e6c-f857-4ec0-9e99-d1a7ee8e8c42",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "drinks.rejectd - no - no",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-no.pizzaorder-no-no",
+      "affectedContexts": [
+        {
+          "name": "pizzaorder-no-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, Where should i deliver the pizza ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524757104,
+  "fallbackIntent": false,
+  "events": []
+}

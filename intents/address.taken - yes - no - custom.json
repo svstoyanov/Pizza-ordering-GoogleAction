@@ -26,13 +26,21 @@
             }
           ],
           "isList": false
+        },
+        {
+          "id": "146b3936-a583-4ba0-8fba-dd42164fe129",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
         }
       ],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": "Done. I have sent the order it should be there in 30 minutes. Buon apetit!"
+          "speech": "Done. I have sent the order it should be there in 30 minutes. Buon apeti!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -42,7 +50,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1524746330,
+  "lastUpdate": 1524757558,
   "fallbackIntent": false,
   "events": []
 }

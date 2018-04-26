@@ -1,0 +1,45 @@
+{
+  "id": "ce072e6c-f857-4ec0-9e99-d1a7ee8e8c42",
+  "parentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "rootParentId": "bc422afa-573f-48e3-b5f4-a0a5ef417140",
+  "name": "pizza.filling - no",
+  "auto": true,
+  "contexts": [
+    "pizzaorder-followup",
+    "ordering"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "pizzaorder.pizzaorder-no",
+      "affectedContexts": [
+        {
+          "name": "pizzaorder-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "pizzafilling-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like something to drink?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524757181,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -24,7 +24,15 @@
               "lang": "en",
               "value": "Where should i deliver the pizza?"
             }
-          ]
+          ],
+          "isList": false
+        },
+        {
+          "id": "0bc98002-ddb5-4cf1-af75-3511b89408b1",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
         }
       ],
       "messages": [
@@ -41,7 +49,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1524746988,
+  "lastUpdate": 1524757523,
   "fallbackIntent": false,
   "events": []
 }
